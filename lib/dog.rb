@@ -8,8 +8,8 @@ class Dog
     save
   end 
   
-  def all
-    return @@all
+  def self.all
+    @@all
   end
   
   def clear_all

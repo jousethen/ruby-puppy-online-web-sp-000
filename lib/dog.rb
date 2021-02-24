@@ -9,7 +9,7 @@ class Dog
   end 
   
   def all
-    @@all
+    return @@all
   end
   
   def clear_all

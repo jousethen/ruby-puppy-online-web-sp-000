@@ -19,4 +19,7 @@ class Dog
   def print_all
     @@all.each {|dog| puts @all.name}
   end
+  
+  def save@
+  end
 end
